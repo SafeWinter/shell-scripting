@@ -69,20 +69,20 @@
 
 Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Working) | :no_entry: (Not Started) | :orange_book: (Learning finished)
 
-| No.  |                        Chapter Title                         |       Status       |
-| :--: | :----------------------------------------------------------: | :----------------: |
-| Ch01 | [Start Here - Course Overview and Downloads](./Ch01_start_here_course_overview_and_downloads.md) | :heavy_check_mark: |
-| Ch02 |           [Shell Scripting, Succinctly](./Ch02.md)           |   :orange_book:    |
-| Ch03 |         [Exit Statuses and Return Codes](./Ch03.md)          |   :orange_book:    |
-| Ch04 |                    [Functions](./Ch04.md)                    |   :orange_book:    |
-| Ch05 |       [Shell Script Checklist and Template](./Ch05.md)       |   :orange_book:    |
-| Ch06 |                    [Wildcards](./Ch06.md)                    |   :orange_book:    |
-| Ch07 |                 [Case Statements](./Ch07.md)                 |   :orange_book:    |
-| Ch08 |                     [Logging](./Ch08.md)                     |   :orange_book:    |
-| Ch09 |                   [While Loops](./Ch09.md)                   |   :orange_book:    |
-| Ch10 |                    [Debugging](./Ch10.md)                    |   :orange_book:    |
-| Ch11 | [Data Manipulation and Text Transformations with Sed](./Ch11.md) |   :orange_book:    |
-| Ch12 |       [Scripts Used to Create This Course](./Ch12.md)        |   :orange_book:    |
+| No.  |                        Chapter Title                         |          Status          |
+| :--: | :----------------------------------------------------------: | :----------------------: |
+| Ch01 | [Start Here - Course Overview and Downloads](./Ch01_start_here_course_overview_and_downloads.md) |    :heavy_check_mark:    |
+| Ch02 | [Shell Scripting, Succinctly](./Ch02_shell_scripting_succinctly.md) | :hourglass_flowing_sand: |
+| Ch03 |         [Exit Statuses and Return Codes](./Ch03.md)          |      :orange_book:       |
+| Ch04 |                    [Functions](./Ch04.md)                    |      :orange_book:       |
+| Ch05 |       [Shell Script Checklist and Template](./Ch05.md)       |      :orange_book:       |
+| Ch06 |                    [Wildcards](./Ch06.md)                    |      :orange_book:       |
+| Ch07 |                 [Case Statements](./Ch07.md)                 |      :orange_book:       |
+| Ch08 |                     [Logging](./Ch08.md)                     |      :orange_book:       |
+| Ch09 |                   [While Loops](./Ch09.md)                   |      :orange_book:       |
+| Ch10 |                    [Debugging](./Ch10.md)                    |      :orange_book:       |
+| Ch11 | [Data Manipulation and Text Transformations with Sed](./Ch11.md) |      :orange_book:       |
+| Ch12 |       [Scripts Used to Create This Course](./Ch12.md)        |      :orange_book:       |
 
 
 
