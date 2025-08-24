@@ -1,8 +1,4 @@
-# S01：Start Here - Course Overview and Downloads
-
-
-
-## 1 课程概要（L01）
+# S01L01: Course Overview 课程概要
 
 截至 2025 年 8 月，本套课程共包含 14 个章节、48 节课，学习时长共计 `5:53:00`（视频课时长约 `2.5` 小时），主要内容如下：
 
@@ -22,15 +18,3 @@
 - 调试技巧
 - Bash Shell 配置参数
 - `sed` 的用法（2019 年新增）
-
-
-
-## 2 资料下载（L02）
-
-课件资料如下（下载地址详见 [百度网盘](https://www.baidu.com)）：
-
-- `shell-scripting-course.zip`：按章节汇总的课堂代码、章节实战习题参考答案、Shell 脚本速查表
-- `RealWorldScripts.zip`：实际工作中的 Shell 脚本案例
-- `sed.pdf`：新增的 `sed` 命令用法的课件（DIY）
-- `slides.zip`：全套课程课件（`PNG` 图片格式的 `PPT`）（DIY）
-

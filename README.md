@@ -69,20 +69,27 @@
 
 Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Working) | :no_entry: (Not Started) | :orange_book: (Learning finished)
 
-| No.  |                        Chapter Title                         |          Status          |
-| :--: | :----------------------------------------------------------: | :----------------------: |
-| Ch01 | [Start Here - Course Overview and Downloads](./Ch01_start_here_course_overview_and_downloads.md) |    :heavy_check_mark:    |
-| Ch02 | [Shell Scripting, Succinctly](./Ch02_shell_scripting_succinctly.md) | :hourglass_flowing_sand: |
-| Ch03 |         [Exit Statuses and Return Codes](./Ch03.md)          |      :orange_book:       |
-| Ch04 |                    [Functions](./Ch04.md)                    |      :orange_book:       |
-| Ch05 |       [Shell Script Checklist and Template](./Ch05.md)       |      :orange_book:       |
-| Ch06 |                    [Wildcards](./Ch06.md)                    |      :orange_book:       |
-| Ch07 |                 [Case Statements](./Ch07.md)                 |      :orange_book:       |
-| Ch08 |                     [Logging](./Ch08.md)                     |      :orange_book:       |
-| Ch09 |                   [While Loops](./Ch09.md)                   |      :orange_book:       |
-| Ch10 |                    [Debugging](./Ch10.md)                    |      :orange_book:       |
-| Ch11 | [Data Manipulation and Text Transformations with Sed](./Ch11.md) |      :orange_book:       |
-| Ch12 |       [Scripts Used to Create This Course](./Ch12.md)        |      :orange_book:       |
+|  No.   |                        Chapter Title                         |          Status          |
+| :----: | :----------------------------------------------------------: | :----------------------: |
+|        |  **Section 1: Start Here - Course Overview and Downloads**   |                          |
+|  L01   | [Course Overview](./S01_start_here_course_overview_and_downloads/S01L01_course_overview.md) |    :heavy_check_mark:    |
+|  L02   | [Course Downloads, Including the scripts used in the course and a cheat sheet](./S01_start_here_course_overview_and_downloads/S01L02_course_downloads_including_the_scripts_used_in_the_course_and_a_cheat_sheet.md) |    :heavy_check_mark:    |
+|        |          **Section 2: Shell Scripting, Succinctly**          |                          |
+|  L03   | [Section Introduction](./S02_shell_scripting_succinctly/S02L03_section_introduction.md) |    :heavy_check_mark:    |
+|  L04   | [Shell Scripting, Part I](./S02_shell_scripting_succinctly/S02L04_shell_scripting_part_i.md) |    :heavy_check_mark:    |
+|  L05   | [Shell Scripting, Part II](./S02_shell_scripting_succinctly/S02L05_shell_scripting_part_ii.md) |    :heavy_check_mark:    |
+| Quiz 1 | [Quiz 1: Shell Scripting](./S02_shell_scripting_succinctly/Quiz1_shell_scripting.md) |    :heavy_check_mark:    |
+|  L06   | [Practice Exercises](./S02_shell_scripting_succinctly/S02L06_practice_exercises.md) |    :heavy_check_mark:    |
+|        |        **Section 3: Exit Statuses and Return Codes**         | :hourglass_flowing_sand: |
+|        |                   **Section 4: Functions**                   |      :orange_book:       |
+|        |      **Section 5: Shell Script Checklist and Template**      |      :orange_book:       |
+|        |                   **Section 6: Wildcards**                   |      :orange_book:       |
+|        |                **Section 7: Case Statements**                |      :orange_book:       |
+|        |                    **Section 8: Logging**                    |      :orange_book:       |
+|        |                  **Section 9: While Loops**                  |      :orange_book:       |
+|        |                  **Section 10: Debugging**                   |      :orange_book:       |
+|        | **Section 11: Data Manipulation and Text Transformations with Sed** |      :orange_book:       |
+|        |      **Section 12: Scripts Used to Create This Course**      |      :orange_book:       |
 
 
 
