@@ -102,14 +102,14 @@
 > 
 > if [ -e "$FILE" ]
 > then
->   echo "Shadow passwords are enabled."
+>      echo "Shadow passwords are enabled."
 > fi
 > 
 > if [ -w "$FILE" ]
 > then
->   echo "You have permissions to edit ${FILE}."
+>      echo "You have permissions to edit ${FILE}."
 > else
->   echo "You do NOT have permissions to edit ${FILE}."
+>      echo "You do NOT have permissions to edit ${FILE}."
 > fi
 > ```
 
@@ -121,7 +121,7 @@
 > #!/bin/bash
 > for ANIMAL in man bear pig dog cat sheep
 > do
->   echo "$ANIMAL"
+>      echo "$ANIMAL"
 > done
 > ```
 
@@ -136,12 +136,12 @@
 > 
 > if [ -f "$FILE" ]
 > then
->   echo "$FILE is a regular file."
+>      echo "$FILE is a regular file."
 > elif [ -d "$FILE" ]
 > then
->   echo "$FILE is a directory."
+>      echo "$FILE is a directory."
 > else
->   echo "$FILE is something other than a regular file or directory."
+>      echo "$FILE is something other than a regular file or directory."
 > fi
 > 
 > ls -l $FILE
@@ -158,16 +158,18 @@
 > 
 > if [ -f "$FILE" ]
 > then
->   echo "$FILE is a regular file."
+>      echo "$FILE is a regular file."
 > elif [ -d "$FILE" ]
 > then
->   echo "$FILE is a directory."
+>      echo "$FILE is a directory."
 > else
->   echo "$FILE is something other than a regular file or directory."
+>      echo "$FILE is something other than a regular file or directory."
 > fi
 > 
 > ls -l $FILE
 > ```
+>
+> 
 
 > **习题8**
 >
@@ -178,17 +180,17 @@
 > 
 > for FILE in $@
 > do
->   if [ -f "$FILE" ]
->   then
->     echo "$FILE is a regular file."
->   elif [ -d "$FILE" ]
->   then
->     echo "$FILE is a directory."
->   else
->     echo "$FILE is something other than a regular file or directory."
->   fi
+>      if [ -f "$FILE" ]
+>      then
+>        echo "$FILE is a regular file."
+>      elif [ -d "$FILE" ]
+>      then
+>        echo "$FILE is a directory."
+>      else
+>        echo "$FILE is something other than a regular file or directory."
+>      fi
 > 
->   ls -l $FILE
+>      ls -l $FILE
 > done
 > ```
 
