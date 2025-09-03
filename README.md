@@ -55,6 +55,10 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 | Quiz 1 | [Quiz 1: Shell Scripting](./S02_shell_scripting_succinctly/Quiz1_shell_scripting.md) |    :heavy_check_mark:    |
 |  L06   | [Practice Exercises](./S02_shell_scripting_succinctly/S02L06_practice_exercises.md) |    :heavy_check_mark:    |
 |        |        **Section 3: Exit Statuses and Return Codes**         | :hourglass_flowing_sand: |
+|  L07   |                Exit Statuses and Return Codes                | :hourglass_flowing_sand: |
+|  L08   |                       Exit Status Demo                       |      :orange_book:       |
+| Quiz 2 |            Quiz 2: Exit Statuses and Return Codes            |      :orange_book:       |
+|  L09   |                      Practice Exercises                      |      :orange_book:       |
 |        |                   **Section 4: Functions**                   |      :orange_book:       |
 |        |      **Section 5: Shell Script Checklist and Template**      |      :orange_book:       |
 |        |                   **Section 6: Wildcards**                   |      :orange_book:       |
@@ -75,3 +79,4 @@ for($i=1; $i -le 12; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
 ```
 
  
+
