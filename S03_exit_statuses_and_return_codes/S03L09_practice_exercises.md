@@ -49,15 +49,15 @@
 > 
 > if [ -f "$FILE" ]
 > then
->   echo "$FILE is a regular file."
->   exit 0
+>     echo "$FILE is a regular file."
+>     exit 0
 > elif [ -d "$FILE" ]
 > then
->   echo "$FILE is a directory."
->   exit 1
+>     echo "$FILE is a directory."
+>     exit 1
 > else
->   echo "$FILE is something other than a regular file or directory."
->   exit 2
+>     echo "$FILE is something other than a regular file or directory."
+>     exit 2
 > fi
 > ```
 
@@ -71,11 +71,11 @@
 > cat /etc/shadow
 > if [ "$?" -eq "0" ]
 > then
->   echo "Command succeeded"
->   exit 0
+>     echo "Command succeeded"
+>     exit 0
 > else
->   echo "Command failed"
->   exit 1
+>     echo "Command failed"
+>     exit 1
 > fi
 > ```
 
