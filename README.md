@@ -54,12 +54,17 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 |  L05   | [Shell Scripting, Part II](./S02_shell_scripting_succinctly/S02L05_shell_scripting_part_ii.md) |    :heavy_check_mark:    |
 | Quiz 1 | [Quiz 1: Shell Scripting](./S02_shell_scripting_succinctly/Quiz1_shell_scripting.md) |    :heavy_check_mark:    |
 |  L06   | [Practice Exercises](./S02_shell_scripting_succinctly/S02L06_practice_exercises.md) |    :heavy_check_mark:    |
-|        |        **Section 3: Exit Statuses and Return Codes**         | :hourglass_flowing_sand: |
+|        |        **Section 3: Exit Statuses and Return Codes**         |    :heavy_check_mark:    |
 |  L07   | [Exit Statuses and Return Codes](./S03_exit_statuses_and_return_codes/S03L07_exit_statuses_and_return_codes.md) |    :heavy_check_mark:    |
-|  L08   | [Exit Status Demo](./S03_exit_statuses_and_return_codes./S03L08_exit_status_demo.md) | :hourglass_flowing_sand: |
-| Quiz 2 | [Quiz 2: Exit Statuses and Return Codes](./S03_exit_statuses_and_return_codes/Quiz2_exit_statuses_and_return_codes.md) |      :orange_book:       |
-|  L09   | [Practice Exercises](./S03_exit_statuses_and_return_codes/S03L09_practice_exercises.md) |      :orange_book:       |
-|        |                   **Section 4: Functions**                   |      :orange_book:       |
+|  L08   | [Exit Status Demo](./S03_exit_statuses_and_return_codes./S03L08_exit_status_demo.md) |    :heavy_check_mark:    |
+| Quiz 2 | [Quiz 2: Exit Statuses and Return Codes](./S03_exit_statuses_and_return_codes/Quiz2_exit_statuses_and_return_codes.md) |    :heavy_check_mark:    |
+|  L09   | [Practice Exercises](./S03_exit_statuses_and_return_codes/S03L09_practice_exercises.md) |    :heavy_check_mark:    |
+|        |                   **Section 4: Functions**                   | :hourglass_flowing_sand: |
+|  L10   | [Functions, Part I](./S04_functions/S04L10_functions_part_i.md) | :hourglass_flowing_sand: |
+|  L11   | [Functions, Part II](./S04_functions/S04L11_functions_part_ii.md) |      :orange_book:       |
+| Quiz 3 |       [Functions](./S04_functions/Quiz3_functions.md)        |      :orange_book:       |
+|  L12   | [Practice Exercises](./S04_functions/S04L12_practice_exercises.md) |      :orange_book:       |
+|  L13   |          [Review](./S04_functions/S04L13_review.md)          |      :orange_book:       |
 |        |      **Section 5: Shell Script Checklist and Template**      |      :orange_book:       |
 |        |                   **Section 6: Wildcards**                   |      :orange_book:       |
 |        |                **Section 7: Case Statements**                |      :orange_book:       |
