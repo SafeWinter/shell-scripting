@@ -196,8 +196,8 @@ SERVER_NAME=`hostname`
 
 |        操作符        | 含义                                       |
 | :------------------: | ------------------------------------------ |
-|     `-z STRING`      | `STRING` 为空，返回 `true`                 |
-|     `-n STRING`      | `STRING` 非空，返回 `true`                 |
+|     `-z STRING`      | `STRING` 为空，返回 `true` [^2]            |
+|     `-n STRING`      | `STRING` 非空，返回 `true` [^3]            |
 | `STRING1 = STRING2`  | `STRING1` 与 `STRING2` 相等，返回 `true`   |
 | `STRING1 != STRING2` | `STRING1` 与 `STRING2` 不相等，返回 `true` |
 
@@ -218,4 +218,11 @@ SERVER_NAME=`hostname`
 
 ---
 
-[^1]: 这里的 `s` 即 `size`，表示文件的大小：若文件存在但大小为 0，则返回 `false`；反之亦然。
+[^1]: 这里的 `-s` 即 `size`，表示文件的大小：若文件存在但大小为 0，则返回 `false`；反之亦然。
+[^2]: 这里的 `-z` 表示 `zero`，即该字符串的长度是否为零。
+[^3]: 这里的 `-n` 表示 `nonzero`，即该字符串的长度是否非零，亦即非空。
+
+
+
+
+

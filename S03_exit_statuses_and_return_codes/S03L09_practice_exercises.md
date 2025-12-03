@@ -1,4 +1,4 @@
-# S02L09: Practice Exercises 本章习题
+# S03L09: Practice Exercises 本章习题
 
 
 
@@ -8,7 +8,7 @@
 
 > **习题1**
 >
-> 编写一段 shell 脚本，在屏幕上打印出 `"This script will exit with a 0 exit status."`。
+> 编写一段 `shell` 脚本，在屏幕上打印出 `"This script will exit with a 0 exit status."`。
 >
 > > [!tip]
 > >
@@ -17,11 +17,11 @@
 
 > **习题2**
 >
-> 编写一段 shell 脚本，接收一个文件名或文件夹作为参数，使其自动判定传入的是一个普通文件、文件夹、还是文件的其他类型？若为普通文件，则用退出状态 `0` 结束；文件夹则为 `1`；其他文件类型则以 `2` 退出。
+> 编写一段 `Shell` 脚本，接收一个文件名或文件夹作为参数，使其自动判定传入的是一个普通文件、文件夹、还是文件的其他类型？若为普通文件，则用退出状态 `0` 结束；文件夹则为 `1`；其他文件类型则以 `2` 退出。
 
 > **习题3**
 >
-> 编写一段 shell 脚本，执行命令 `cat /etc/shadow`。如果返回的退出状态为 `0` 提示 `Command succeeded`，并按 `0` 退出；若非 `0` 则提示 `Command failed` 并以 `1` 的状态码退出。
+> 编写一段 `Shell` 脚本，执行命令 `cat /etc/shadow`。如果返回的退出状态为 `0` 提示 `Command succeeded`，并按 `0` 退出；若非 `0` 则提示 `Command failed` 并以 `1` 的状态码退出。
 
 
 

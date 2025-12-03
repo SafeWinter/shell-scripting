@@ -1,4 +1,4 @@
-# S02L07: Exit Statuses and Return Codes（退出状态与返回码）
+# S03L07: Exit Statuses and Return Codes（退出状态与返回码）
 
 > **本节概要**
 >
@@ -10,7 +10,7 @@
 
 ## 1 关于退出状态
 
-在 Shell 中，每个命令都会返回一个退出状态（`exit status`），也叫状态码、返回码。
+在 `Shell` 中，每个命令都会返回一个退出状态（`exit status`），也叫状态码、返回码。
 
 退出状态的取值范围：0 到 255。其中：
 
@@ -115,7 +115,7 @@ ping -c 1 $HOST || echo "$HOST unreachable."
 
 > [!tip]
 >
-> Shell 脚本中也有类似三目运算符的写法，语法格式为：
+> `Shell` 脚本中也有类似三目运算符的写法，语法格式为：
 >
 > ```shell
 > [ condition ] && true_value || false_value
@@ -160,9 +160,9 @@ exit 2
 exit 255
 ```
 
-一旦执行 `exit` 命令，Shell 脚本便停止执行。
+一旦执行 `exit` 命令，`Shell` 脚本便停止执行。
 
-如果不显式声明，默认情况下，最后一条命令的返回码即为整个 Shell 脚本的返回码。
+如果不显式声明，默认情况下，最后一条命令的返回码即为整个 `Shell` 脚本的返回码。
 
 例如 `exit-status-06.sh`：
 

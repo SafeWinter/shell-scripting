@@ -8,7 +8,7 @@
 
 > **习题1**
 >
-> 编写一段 shell 脚本，在屏幕上打印出 `"Shell Scripting is Fun!"`。
+> 编写一段 `Shell` 脚本，在屏幕上打印出 `"Shell Scripting is Fun!"`。
 >
 > > [!tip]
 > >
@@ -30,11 +30,11 @@
 
 > **习题4**
 >
-> 编写一段 shell 脚本，判定文件 `"/etc/shadow"` 是否存在：若存在，在显示 `"Shadow passwords are enabled."`。接着，再判定该文件是否可写入：若可写，则显示 `"You have permissions to edit /etc/shadow."`；否则显示 `"You do NOT have permissions to edit /etc/shadow."`。
+> 编写一段 `Shell` 脚本，判定文件 `"/etc/shadow"` 是否存在：若存在，在显示 `"Shadow passwords are enabled."`。接着，再判定该文件是否可写入：若可写，则显示 `"You have permissions to edit /etc/shadow."`；否则显示 `"You do NOT have permissions to edit /etc/shadow."`。
 
 > **习题5**
 >
-> 编写一段 shell 脚本，依次将 `man`、`bear`、`dog`、`cat` 和 `sheep` 显示在屏幕上，一个单词占一行。要求代码尽可能简短。
+> 编写一段 `Shell` 脚本，依次将 `man`、`bear`、`dog`、`cat` 和 `sheep` 显示在屏幕上，一个单词占一行。要求代码尽可能简短。
 >
 > > [!tip]
 > >
@@ -42,7 +42,7 @@
 
 > **习题6**
 >
-> 编写一段 shell 脚本，提示用户输入一个文件或目录的名称，然后告知用户它是常规文件、目录，还是其他类型的文件。
+> 编写一段 `Shell` 脚本，提示用户输入一个文件或目录的名称，然后告知用户它是常规文件、目录，还是其他类型的文件。
 >
 > 此外，再对该文件或目录执行执行带有长列表选项的 `ls` 命令。
 

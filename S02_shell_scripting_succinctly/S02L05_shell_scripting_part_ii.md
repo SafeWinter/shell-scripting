@@ -30,7 +30,7 @@ fi
 # You seem to like the bash shell.
 ```
 
-最佳实践：在进行条件判定时，要用引号包裹变量，以免出现意外情况。例如，运行以下测试脚本 `test.sh`：
+最佳实践：在进行条件判定时，**要用引号包裹变量**，以免出现意外情况。例如，运行以下测试脚本 `test.sh`：
 
 ```shell
 #!/bin/bash
@@ -299,7 +299,7 @@ $
 
 ## 5.4 接收用户输入（标准输入）
 
-用户输入内容在 Shell 脚本中输入标准输入。除了用户输入外标准输入的来源还可以是命令执行结果，或者通过命令管道操作导入。
+用户输入内容在 `Shell` 脚本中的标准输入。除了用户输入外，标准输入的来源还可以是命令执行结果，或者通过命令管道操作导入。
 
 用户输入的接收通过 `read` 命令实现，语法格式为：
 
@@ -332,7 +332,7 @@ tar cf /archives/${USER}.tar.gz /home/${USER}
 
 ## 5.5 本章小结
 
-- Shell 脚本的首行：`#!/path/to/interpreter`
+- `Shell` 脚本的首行：`#!/path/to/interpreter`
 - 变量的赋值：
   - `VARIABLE_NAME="value"`
   - `VARIABLE_NAME=$(command)`
@@ -340,6 +340,8 @@ tar cf /archives/${USER}.tar.gz /home/${USER}
   - `$VARIBALE_NAME`
   - `${VARIBALE_NAME}`
 - `if` 语句
+  - `if-else`
+  - `if-elif-else`
 - `for` 循环语句
 - 位置参数：
   - `$0`, `$1`, `$2` ... `$9`, `${10}`
